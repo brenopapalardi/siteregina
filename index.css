@@ -1,0 +1,132 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(231, 230, 230);
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-y:hidden;
+}
+.button {
+    padding-left: 40px;
+    padding-top: 40px;
+    width: 100px;
+    height: 100px;
+}
+#btnhamburguer{
+    background-color: white;
+    border: none;
+    left: 20px;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+}
+#btnhamburguer img{    
+    width: 35px;     
+    transition-duration: 700ms; 
+
+}
+#btnhamburguer img:hover {
+    transform: scale(1.2,1.2);
+}
+
+.home {
+    margin: auto;
+    display: block;
+    height: 100vh;
+    width: 50vw;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    
+}
+.textcontainer h1{
+    text-transform: uppercase;
+}
+.container{
+    position: relative;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.image img {
+    display: block;    
+    margin-left: auto;
+    margin-right: auto;    
+    
+}
+.home .container .image img{
+    border-radius: 100px;
+    width: 200px;
+    margin-bottom: 3%;
+}
+
+.textcontainer {
+    text-align: center;
+    
+}
+h1 {
+    font-family: Playfair Display; 
+    font-size: 40px;
+    margin-bottom: 10px;
+    letter-spacing: 2px; 
+    color: rgb(67, 124, 67);
+    
+}
+
+h3 {
+    font-family: Playfair Display; 
+    font-size: 23px;
+    margin-bottom: 10px;
+    letter-spacing: 2px; 
+    color: rgb(62, 100, 62);
+
+}
+p{
+    margin-top: 25px;
+    margin-bottom: 0;
+    line-height: 1.4;
+    color: rgb(107, 106, 106);
+    text-align: justify;
+}
+.p1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+a {
+text-decoration: none;
+font-weight: bold;
+color: black;
+transition-duration: 250ms;  
+}
+a:hover{
+    color: rgb(62, 100, 62);  
+}
+
+/* SOCIAL MEDIA */
+
+.socialmedia {
+    display: flex;
+    padding-left: 44%;
+}
+
+.socialmedia ul {
+    display: flex;
+    list-style: none;
+    width:100px
+}
+.socialmedia ul li{  
+    padding-right: 15px;  
+    
+}
+.socialmedia ul li a img{
+    width: 30px;
+    border-radius: 13px;    
+    transition-duration: 500ms;    
+}
+.socialmedia ul li a img:hover{
+    color: rgb(62, 100, 62);  
+    transform: scale(0.8,0.8);
+    
+}
+
